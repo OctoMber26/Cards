@@ -1,0 +1,29 @@
+@media (max-width:480px){
+.card{
+    width: 100px;
+    text-align: center;
+    border:none;
+    text-align: center;
+}
+
+.card-text{
+    font-size: 12px;
+    font-weight: bolder;
+    color: #5C069E;
+}
+
+.footer{
+    margin-top: -100px;
+    display: flex;
+    column-gap: 5px;
+}
+.card-img{
+    width: 80px;
+    margin: auto auto;
+}
+
+.digital{
+    margin-top: -25px;
+    color: #5C069E;
+}
+}

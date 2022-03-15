@@ -1,0 +1,95 @@
+@media (min-width:900px){
+body{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(/src/components/images/Background-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size:  700px;
+    background-position: 130% 30%;
+}
+
+.logo{
+    width: 100px;
+    margin-right: 50px;
+}
+.nav-link{
+        color: #000;
+        text-decoration: none;
+}
+
+.nav-link:hover{
+    color:#8E22B5 ;
+}
+
+.nav-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #8E22B5;
+    transition: width .4s ease-in;
+}
+
+.nav-link:hover::after{
+    color: #8E22B5;
+    transform: 1s;
+    width: 100%;
+}
+}
+
+@media (max-width:480px){
+    body{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-image: url(/src/components/images/Mobile-Background.jpg);
+        background-repeat: no-repeat;
+        background-size: 500px;
+        background-position: -88% 20%;
+    }
+
+    .logo{
+        width: 100px;
+        margin-left: 20px;
+    }
+
+    .navbar-toggler-icon{
+        margin-top: 10px;
+        width: 50px;
+    }
+
+    .navbar-toggler-icon:focus{
+        outline: none;
+        border-style: none;
+        border: none;
+    box-shadow: none;
+    }
+    .nav-link{
+        color: #8E22B5;
+        text-decoration: none;
+        font-size: 20px;
+        margin-top: 20px;
+        margin-left: 25px;
+}
+
+.nav-link:hover{
+    color:#8E22B5 ;
+}
+
+.nav-link::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background: #8E22B5;
+    transition: width .4s ease-in;
+}
+
+.nav-link:hover::after{
+    color: #8E22B5;
+    transform: 1s;
+    width: 100%;
+}
+
+}

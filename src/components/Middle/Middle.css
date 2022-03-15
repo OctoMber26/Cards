@@ -1,0 +1,112 @@
+@media (min-width:900px){
+    .description{
+        margin-top: 130px;
+        width: 500px;
+        text-align: start;
+        letter-spacing: 3px; 
+    }
+
+    .about{
+        margin-top: 30px;
+        color: #666666;
+        font-weight: bolder;
+    }
+
+    .trust{
+        color: #FF7B4E;
+        margin-left: 5px;
+    }
+
+    .us{
+        color: #5C069E;
+    }
+
+    .register{
+        width: 205px;
+        height: 43px;
+        border-radius: 50px;
+        background: rgb(190,79,198);
+background: linear-gradient(333deg, rgba(190,79,198,1) 5%, rgba(198,68,167,1) 53%, rgba(161,93,148,1) 100%);
+        border: none;
+        color: white;
+        font-size: 14px;
+    }
+
+    .cards{
+        width: 550px;
+        margin-top: -80px;
+        margin-left: -10px;
+    }
+
+    .cards-row{
+        position: relative;
+        z-index: -1;
+        visibility:hidden;
+    }
+
+    .wallet{
+        position: relative;
+        z-index: -1;
+        visibility: hidden;
+    }
+}
+
+@media (max-width:480px){
+    .cards{
+       visibility: hidden;
+    }
+
+.description{
+    
+    font-size: 30px;
+    width: 80%;
+    margin: auto auto;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.about{
+    color: #666666;
+    font-weight: bolder;
+    width: 70%;
+    font-size: 15px;
+    margin-left: 120px;
+    text-align: start;
+}
+
+.trust{
+    color: #FF7B4E;
+    margin-left: 5px;
+}
+
+.us{
+    color: #5C069E;
+}
+
+.register{
+    width: 205px;
+    height: 43px;
+    border-radius: 50px;
+    background: rgb(190,79,198);
+background: linear-gradient(333deg, rgba(190,79,198,1) 5%, rgba(198,68,167,1) 53%, rgba(161,93,148,1) 100%);
+    border: none;
+    color: white;
+    font-size: 14px;
+    margin-left: 115px;
+}
+
+.cards-row{
+    position: relative;
+    z-index: -1;
+    visibility: visible;
+    width: 300px;
+    margin-left: -150px;
+    margin-top: -700px;
+}
+
+.wallet{
+    margin-top: -500px;
+    margin-right: -20px;
+}
+
+}
